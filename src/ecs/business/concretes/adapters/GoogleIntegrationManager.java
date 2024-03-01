@@ -5,10 +5,10 @@ import ecs.business.abstracts.IntegrationService;
 public class GoogleIntegrationManager implements IntegrationService {
 
 	private int id = 10;
-	private String firstName = "Engin";	
+	private String firstName = "Hasan";	
 	private String lastName ="Demir";
 	private String eMail ="denemedeneme@gmail.com"; // bilgiler Google'dan geliyor simülasyonu için oluşturdum.
-	private String password ="engindmr85";
+	private String password ="hasandemir";
 		
 	public int getId() {
 		return id;

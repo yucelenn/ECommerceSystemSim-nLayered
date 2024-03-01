@@ -26,11 +26,11 @@ public class Main {
 		
 		//manager.deleteAccount(user1);
 		
-		manager.updateAccount(user1, "Yücelen", "Üstün", "yucelenn@hotmail.com", "yuyuyu");
+		manager.updateAccount(user1, "Yücelen", "Üstün", "yuce@hotmail.com", "yuyuyu");
 		//System.out.println(manager.getAll().size());
 		System.out.println("***********************************************");
 
-		manager.logIn("yucelenn@hotmail.com", "yuyuyu");
+		manager.logIn("yuce@hotmail.com", "yuyuyu");
 		System.out.println("***********************************************");
 		
 		Adapter adapter = new Adapter(new GoogleIntegrationManager());

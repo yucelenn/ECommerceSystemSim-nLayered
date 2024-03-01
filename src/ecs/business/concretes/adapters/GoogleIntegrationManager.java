@@ -6,9 +6,9 @@ public class GoogleIntegrationManager implements IntegrationService {
 
 	private int id = 10;
 	private String firstName = "Engin";	
-	private String lastName ="Demiroğ";
-	private String eMail ="engindemirog@gmail.com"; // bilgiler Google'dan geliyor simülasyonu için oluşturdum.
-	private String password ="engindmrg85";
+	private String lastName ="Demir";
+	private String eMail ="denemedeneme@gmail.com"; // bilgiler Google'dan geliyor simülasyonu için oluşturdum.
+	private String password ="engindmr85";
 		
 	public int getId() {
 		return id;
